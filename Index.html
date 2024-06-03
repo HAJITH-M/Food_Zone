@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="2xl:container mx-auto">
+        <div class="w-[95%] md:w-[100%] mx-auto grid grid-cols-1 md:grid-cols-1 ">
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center justify-between rounded-md py-4 px-6"
+                style="box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
+
+                <div class=" md:ml-32 flex justify-between items-center ">
+                    <img src="https://ik.imagekit.io/k5gvskw6y/Revamp%20Assignments/responsive%20nav/Logo.png"
+                        alt="logo" width="80">
+
+                    <svg class="md:hidden" id="hamburger" fill="none" viewBox="0 0 15 15" height="1em" width="1em">
+                        <path fill="currentColor" fillRule="evenodd"
+                            d="M1.5 3a.5.5 0 000 1h12a.5.5 0 000-1h-12zM1 7.5a.5.5 0 01.5-.5h12a.5.5 0 010 1h-12a.5.5 0 01-.5-.5zm0 4a.5.5 0 01.5-.5h12a.5.5 0 010 1h-12a.5.5 0 01-.5-.5z"
+                            clipRule="evenodd" />
+                    </svg>
+
+                    <svg class="hidden md:hidden" id="cross" fill="none" viewBox="0 0 15 15" height="1em" width="1em">
+                        <path fill="currentColor" fillRule="evenodd"
+                            d="M11.782 4.032a.575.575 0 10-.813-.814L7.5 6.687 4.032 3.218a.575.575 0 00-.814.814L6.687 7.5l-3.469 3.468a.575.575 0 00.814.814L7.5 8.313l3.469 3.469a.575.575 0 00.813-.814L8.313 7.5l3.469-3.468z"
+                            clipRule="evenodd" />
+                    </svg>
+                </div>
+                <div id="menu" class="hidden md:block mx-24">
+                    <ul
+                        class="  flex flex-col justify-center md:flex-row gap-4 md:gap-16 md:justify-end items-center mt-3 ">
+
+
+                        <li class="flex justify-between items-center gap-3">
+
+                            <svg fill="red" viewBox="0 0 24 24" height="1.5em" width="1.5em">
+                                <path
+                                    d="M18.319 14.433A8.001 8.001 0 006.343 3.868a8 8 0 0010.564 11.976l.043.045 4.242 4.243a1 1 0 101.415-1.415l-4.243-4.242a1.116 1.116 0 00-.045-.042zm-2.076-9.15a6 6 0 11-8.485 8.485 6 6 0 018.485-8.485z" />
+                            </svg>
+
+                            Search
+                        </li>
+
+                        <li class="flex justify-between items-center gap-3">
+
+                            <svg viewBox="0 0 24 24" fill="red" height="1.5em" width="1.5em">
+                                <path
+                                    d="M20.749 12l1.104-1.908a1 1 0 00-.365-1.366l-1.91-1.104v-2.2a1 1 0 00-1-1h-2.199l-1.103-1.909a1.008 1.008 0 00-.607-.466.993.993 0 00-.759.1L12 3.251l-1.91-1.105a1 1 0 00-1.366.366L7.62 4.422H5.421a1 1 0 00-1 1v2.199l-1.91 1.104a.998.998 0 00-.365 1.367L3.25 12l-1.104 1.908a1.004 1.004 0 00.364 1.367l1.91 1.104v2.199a1 1 0 001 1h2.2l1.104 1.91a1.01 1.01 0 00.866.5c.174 0 .347-.046.501-.135l1.908-1.104 1.91 1.104a1.001 1.001 0 001.366-.365l1.103-1.91h2.199a1 1 0 001-1v-2.199l1.91-1.104a1 1 0 00.365-1.367L20.749 12zM9.499 6.99a1.5 1.5 0 11-.001 3.001 1.5 1.5 0 01.001-3.001zm.3 9.6l-1.6-1.199 6-8 1.6 1.199-6 8zm4.7.4a1.5 1.5 0 11.001-3.001 1.5 1.5 0 01-.001 3.001z" />
+                            </svg>
+
+                            Offers
+                        </li>
+
+
+                        <li class="flex justify-between items-center gap-3">
+                            <svg viewBox="0 0 24 24" fill="red" height="1em" width="1em">
+                                <path
+                                    d="M3.497 14.044l7.022-7.021a4.946 4.946 0 001.474-3.526A4.99 4.99 0 0010.563 0L3.54 7.024a4.945 4.945 0 00-1.473 3.525c0 1.373.55 2.6 1.43 3.496zm17.007-4.103l-7.023 7.022a4.946 4.946 0 00-1.473 3.525c0 1.36.55 2.601 1.43 3.497l7.022-7.022a4.943 4.943 0 001.474-3.526c0-1.373-.55-2.6-1.43-3.496zm-.044-2.904a4.944 4.944 0 001.474-3.525c0-1.36-.55-2.6-1.43-3.497L3.54 16.965A4.986 4.986 0 003.497 24z" />
+                            </svg>Help
+                        </li>
+                        <li class="flex justify-between  items-center gap-3"> <svg viewBox="0 0 23 23"
+                                fill="red" height="1.5em" width="1.5em">
+                                <path
+                                    d="M10 17v-3H3v-4h7V7l5 5-5 5m0-15h9a2 2 0 012 2v16a2 2 0 01-2 2h-9a2 2 0 01-2-2v-2h2v2h9V4h-9v2H8V4a2 2 0 012-2z" />
+                            </svg>Sign in
+                        </li>
+
+
+                        <li class="flex justify-between items-center gap-3"> <svg viewBox="0 0 1024 1024" fill="red"
+                                height="1.5em" width="1.5em">
+                                <path
+                                    d="M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 01-31.6 31.6zm325.1 0c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 01-31.6 31.6z" />
+                            </svg>Cart
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w-[95%] md:w-[75%] mx-auto">
+            <div class="pt-3 ">
+                <p class="font-[Roboto] text-2xl leading-relaxed font-bold">What's on your mind?</p>
+                
+            
+            </div>
+
+            <div class="flex no-scrollbar overflow-auto gap-5 py-4">
+
+               <img class="w-36" src="./assets/Biryani_2.avif" alt="">
+               <img class="w-36" src="./assets/Burger.avif" alt="">
+               <img class="w-36" src="./assets/Noodles.avif" alt="">
+               <img class="w-36" src="./assets/North_Indian_4.avif" alt="">
+               <img class="w-36" src="./assets/Pizza.avif" alt="">
+               <img class="w-36" src="./assets/Shakes.avif" alt="">
+               <img class="w-36" src="./assets/South_Indian_4.avif" alt="">
+
+            </div>
+            <hr class=" bg-black">
+
+            <div class="pt-3 ">
+                <p class="font-[Roboto] text-2xl leading-relaxed font-bold">Top restaurant chains in Chennai</p>
+                
+            
+            </div>
+
+
+
+
+
+            <div class="flex no-scrollbar overflow-auto gap-5 py-4">
+
+                <img class="w-36" src="./assets/Biryani_2.avif" alt="">
+                <img class="w-36" src="./assets/Burger.avif" alt="">
+                <img class="w-36" src="./assets/Noodles.avif" alt="">
+                <img class="w-36" src="./assets/North_Indian_4.avif" alt="">
+                <img class="w-36" src="./assets/Pizza.avif" alt="">
+                <img class="w-36" src="./assets/Shakes.avif" alt="">
+                <img class="w-36" src="./assets/South_Indian_4.avif" alt="">
+ 
+             </div>
+
+
+
+
+
+
+
+
+             <div class="flex no-scrollbar overflow-auto gap-5 py-4">
+
+                <img class="w-36" src="./assets/Biryani_2.avif" alt="">
+                <img class="w-36" src="./assets/Burger.avif" alt="">
+                <img class="w-36" src="./assets/Noodles.avif" alt="">
+                <img class="w-36" src="./assets/North_Indian_4.avif" alt="">
+                <img class="w-36" src="./assets/Pizza.avif" alt="">
+                <img class="w-36" src="./assets/Shakes.avif" alt="">
+                <img class="w-36" src="./assets/South_Indian_4.avif" alt="">
+ 
+             </div>
+
+
+
+
+
+
+             <div class="flex no-scrollbar overflow-auto gap-5 py-4">
+
+                <img class="w-36" src="./assets/Biryani_2.avif" alt="">
+                <img class="w-36" src="./assets/Burger.avif" alt="">
+                <img class="w-36" src="./assets/Noodles.avif" alt="">
+                <img class="w-36" src="./assets/North_Indian_4.avif" alt="">
+                <img class="w-36" src="./assets/Pizza.avif" alt="">
+                <img class="w-36" src="./assets/Shakes.avif" alt="">
+                <img class="w-36" src="./assets/South_Indian_4.avif" alt="">
+ 
+             </div>
+
+        </div>
+       
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="2xl:container mx-auto">
+
+        <div class=" w-[95%] md:w-[73%] mx-auto gird ">
+
+           
+           
+            <div class=" flex flex-row  " >
+                <div>
+                    <a href="#"><img src="./assets/Biryani_2.avif" alt="Biryani" width="1000">
+
+                </div>
+                <div>
+                    <a href="#"><img src="./assets/Pizza.avif" alt="Pizza" width="1000" > 
+
+                </div>
+                <div>
+                    <a href="#"><img src="./assets/Burger.avif" alt=""  width="1000">
+
+                </div>
+                <div>
+                    <a href="#"><img src="./assets/Noodles.avif" alt="" width="700">
+
+                </div>
+                <div>
+                    <a href="#"><img src="./assets/Shakes.avif" alt="" width="700">
+
+                </div>
+
+                <div>
+                    <a href="#"><img src="./assets/South_Indian_4.avif" alt="" width="700">
+
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+
+
+    <script>
+
+        const hamburger = document.getElementById('hamburger')
+        const cross = document.getElementById('cross')
+        const menu = document.getElementById('menu')
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('hidden')
+            cross.classList.toggle('hidden')
+
+            menu.classList.toggle('hidden')
+
+
+        })
+
+        cross.addEventListener('click', () => {
+            hamburger.classList.toggle('hidden')
+            cross.classList.toggle('hidden')
+            menu.classList.toggle('hidden')
+
+
+        })
+
+
+
+    </script>
+</body>
+
+</html>
