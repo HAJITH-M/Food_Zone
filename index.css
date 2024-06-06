@@ -8,3 +8,8 @@
     scrollbar-width: none;  /* Firefox */
 }
 
+@layer utilities {
+    .top-73 {
+      top: 61.8%;
+    }
+  }
