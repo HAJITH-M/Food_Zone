@@ -25,6 +25,6 @@
   restaurants.map((restaurant) => {
     const restaurantElement = document.createElement("p");
     restaurantElement.textContent = restaurant;
-    restaurantElement.classList.add("border", "border-x-gray-300", "rounded-xl", "py-3", "px-1" , "flex", "items-center", "justify-center", "mx-auto");
+    restaurantElement.classList.add("text-xs","md:text-base","border", "border-x-gray-300", "rounded-xl", "py-3", "px-1" , "flex", "items-center", "justify-center", );
     restaurantListContainer.appendChild(restaurantElement);
   });
