@@ -184,7 +184,7 @@ cardimage.image.map((images) => {
     paraimgdiv.className = 'relative';
 
     const itemRate = document.createElement('p');
-    itemRate.className = 'font-roboto text-xl bg-slate-900 bg-opacity-50 font-extrabold absolute top-73 translate-y-9 pl-3 mt-1 rounded-bl-2xl rounded-br-2xl text-white h-7 w-full flex items-center';
+    itemRate.className = 'font-roboto text-base md:text-xl bg-slate-900 bg-opacity-50 font-extrabold absolute top-73 translate-y-9 pl-3 mt-1 rounded-bl-2xl rounded-br-2xl text-white h-7 w-full flex items-center';
     itemRate.textContent = images.itemRate;
     paraimgdiv.appendChild(itemRate);
 
