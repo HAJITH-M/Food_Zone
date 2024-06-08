@@ -889,30 +889,66 @@
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 " id="restaurantList">
           
         </div>
+
+        <div class="mt-11">
+          <p
+            class="font-[Roboto] text-2xl leading-relaxed tracking-wide font-bold"
+          >
+
+          Best Cuisines Near Me
+          </p>
+        </div>
+
+        <!-- list appending using js - Best Cuisines Near Me -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 " id="citiesList">
+          
+        </div>
+
+
+        <div class="mt-11">
+          <p
+            class="font-[Roboto] text-2xl leading-relaxed tracking-wide font-bold"
+          >
+
+          Explore Every Restaurants Near Me
+          </p>
+        </div>
+
+
+        <!-- list appending using js -->
+        <div class="grid grid-cols-1 md:grid-cols-2  mx-auto lg:grid-cols-2 gap-5 pb-24" id="actionList">
+          
+        </div>
+
+        
       </div>
 
      </div>
    
 
+     <!-- playstore -->
+      <div class="bg-gray-200 p-5">
+        <div class="w-[60%] mx-auto grid md:gap-4 grid-cols-1 md:grid-cols-2">
+
+          <div class="">
+            <p class=" p-5 text-gray-700 text-2xl font-extrabold">For better experience,download <br> the Swiggy app now</p>
+          </div>
+
+          <div class="flex mx-auto h-14 gap-4  justify-center my-auto ">
+            <img src="./assets/app logos/play_store.avif" alt="" width="200">
+            <img src="./assets/app logos/app_store.avif" alt="" width="200">
+          </div>
+         
+
+        </div>
+      </div>
+     
+
+
    
      <script src="./index.js"></script>
     <script>
-      const hamburger = document.getElementById("hamburger");
-      const cross = document.getElementById("cross");
-      const menu = document.getElementById("menu");
 
-      hamburger.addEventListener("click", () => {
-        hamburger.classList.toggle("hidden");
-        cross.classList.toggle("hidden");
-
-        menu.classList.toggle("hidden");
-      });
-
-      cross.addEventListener("click", () => {
-        hamburger.classList.toggle("hidden");
-        cross.classList.toggle("hidden");
-        menu.classList.toggle("hidden");
-      });
     </script>
   </body>
 </html>
