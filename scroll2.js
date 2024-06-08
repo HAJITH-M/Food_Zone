@@ -1,7 +1,7 @@
 const cardimage = {
     "image": [
         {
-            "href": "https://www.google.com",
+            "href": "#",
             "itemRate": "ITEMS AT ₹189",
             "src": "https://ik.imagekit.io/k5gvskw6y/Food%20Zone/scroll-card/pizzaHut.avif?updatedAt=1717847547270",
             "alt": "pizza",
@@ -10,6 +10,7 @@ const cardimage = {
             "description": "Chinese, Asian, Tibetan, Desserts Old Mahabalipuram Road OMR"
         },
         {
+            "href": "#",
             "itemRate": "ITEMS AT ₹199",
             "src": "https://ik.imagekit.io/k5gvskw6y/Food%20Zone/scroll-card/chinese%20wok.avif?updatedAt=1717847549281", 
             "alt": "Chinese Wok",
@@ -42,6 +43,7 @@ const cardimage = {
             "description": "Burgers, American Kancheepuram"
         },
         {
+            "href": "#",
             "itemRate": "40% OFF UPTO ₹80",
             "src": "https://ik.imagekit.io/k5gvskw6y/Food%20Zone/scroll-card/McDonald's.avif?updatedAt=1717847546784", 
             "alt": "McDonald's",
@@ -50,6 +52,7 @@ const cardimage = {
             "description": "Burgers, Beverages, Cafe, Desserts Nehru Nagar"
         },
         {
+            "href": "#",
             "itemRate": "40% OFF UPTO ₹80",
             "src": "https://ik.imagekit.io/k5gvskw6y/Food%20Zone/scroll-card/KFC.avif?updatedAt=1717847546670", 
             "alt": "KFC",
@@ -58,7 +61,8 @@ const cardimage = {
             "description": "Burgers, Fast Food, Rolls & Wraps Sholinganallur"
         },
         {
-            "itemRate": "₹150 OFF ABOVE ₹299",
+            "href": "#",
+            "itemRate": "50% OFF UPTO ₹100",
             "src": "https://ik.imagekit.io/k5gvskw6y/Food%20Zone/scroll-card/Domino's%20Pizza.avif?updatedAt=1717847546311", 
             "alt": "Domino's Pizza",
             "restaurant": "Domino's Pizza",
@@ -66,6 +70,7 @@ const cardimage = {
             "description": "Pizzas, Italian, Pastas, Desserts Sholinganallur"
         },
         {
+            "href": "#",
             "itemRate": "ITEMS AT ₹99",
             "src": "https://ik.imagekit.io/k5gvskw6y/Food%20Zone/scroll-card/Wow!%20Momo.avif?updatedAt=1717847547035", 
             "alt": "Wow! Momo",
@@ -74,6 +79,7 @@ const cardimage = {
             "description": "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages Sholinganallur Signal"
         },
         {
+            "href": "#",
             "itemRate": "50% OFF UPTO ₹100",
             "src": "https://ik.imagekit.io/k5gvskw6y/Food%20Zone/scroll-card/La%20Pino'z%20Pizza.avif?updatedAt=1717847546407", 
             "alt": "La Pino'z Pizza",
@@ -82,7 +88,8 @@ const cardimage = {
             "description": "Pizzas, Pastas, Italian, Desserts, Beverages Sholinganallur"
         },
         {
-            "itemRate": "10% OFF ABOVE ₹1000",
+            "href": "#",
+            "itemRate": "40% OFF UPTO ₹100",
             "src": "https://ik.imagekit.io/k5gvskw6y/Food%20Zone/scroll-card/Eat%20N%20Drink.avif?updatedAt=1717847546378", 
             "alt": "Eat N Drink",
             "restaurant": "Eat N Drink",
@@ -90,6 +97,7 @@ const cardimage = {
             "description": "North Indian, Fast Food, Juices, Beverages Karapakkam"
         },
         {
+            "href": "#",
             "itemRate": "40% OFF UPTO ₹80",
             "src": "https://ik.imagekit.io/k5gvskw6y/Food%20Zone/scroll-card/Ambur%20Star%20Briyani.avif?updatedAt=1717847546950", 
             "alt": "Ambur Star Briyani",
