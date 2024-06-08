@@ -46,6 +46,7 @@ cross.addEventListener("click", () => {
   // Map through the restaurants array to create HTML elements
   restaurants.map((restaurant) => {
     const restaurantElement = document.createElement("p");
+    restaurantElement.className = "cursor-pointer transform transition-transform duration-100 hover:scale-95";
     restaurantElement.textContent = restaurant;
     restaurantElement.classList.add("text-sm","md:text-base","border","font-medium", "border-x-gray-300", "rounded-xl", "py-3", "px-1" , "flex", "items-center", "justify-center", );
     restaurantListContainer.appendChild(restaurantElement);
@@ -77,6 +78,8 @@ const cusineList = document.getElementById("citiesList");
 
 cusines.map((cusine) => {
     const cusineElement = document.createElement("p");
+    cusineElement.className = "cursor-pointer transform transition-transform duration-100 hover:scale-95";
+
     cusineElement.textContent = cusine;
     cusineElement.classList.add("text-sm","md:text-base","border","font-medium", "border-x-gray-300", "rounded-xl", "py-3", "px-1" , "flex", "items-center", "justify-center", );
     cusineList.appendChild(cusineElement);
@@ -99,6 +102,7 @@ const actionListcontainer = document.getElementById("actionList");
 
 actionList.map((actions) => {
     const actionElement = document.createElement("p");
+    actionElement.className = "cursor-pointer transform transition-transform duration-100 hover:scale-95";
     actionElement.textContent = actions;
     actionElement.classList.add("text-sm","md:text-base","border","font-medium", "border-x-gray-300", "rounded-xl", "py-3", "px-1" , "flex", "items-center", "justify-center", );
     actionListcontainer.appendChild(actionElement);
